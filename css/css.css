@@ -1,0 +1,268 @@
+body{
+
+      margin: 0px auto;
+
+
+}
+
+.start{
+
+      margin-top: 50px;
+      text-align: center;
+}
+
+.start h1 {
+
+        border-radius: 40px ;
+        line-height: 60px ;
+        border: 2px solid white ;
+        background-color: none ;
+        margin: auto;
+        text-align: center;
+        width: 150px ;
+        height: 60px ;
+        transition: 0.5s ;
+        font-size: 14px ;
+        font-family: agency fb;
+        color: white ;
+}
+
+.start h1:hover {
+
+        border-radius: 40px ;
+        line-height: 60px ;
+        border: 2px solid white ;
+        background-color: none ;
+        margin: auto;
+        text-align: center;
+        width: 170px ;
+        height: 60px ;
+        transition: 0.5s ;
+        font-family: agency fb;
+        font-size: 14px ;
+}
+.header{
+        background: none;
+        position: fixed;
+        height: 65px ;
+        width: 100%;
+        transition: 0.5s;
+        z-index: 100;
+}
+.header:hover{
+        background-color: black;
+        position: fixed;
+        height: 65px ;
+        width: 100%;
+        transition: 0.5s;
+        z-index: 100;
+}
+
+.text-item{
+  align-self: center;
+  font-size: auto;
+  color: white ;
+}
+
+.head-item{
+  margin-right: 10%;
+}
+
+.item{
+
+    min-width: 100px;
+    border-top: 4px solid transparent;
+    height: 61px;
+    text-align: center;
+    background: none;
+    font-family: agency fb;
+    width: 10% ;
+    float: right;
+    display: block;
+    transition: 0.5s;
+
+}
+
+.item:hover{
+  border-top:4px solid white  ;
+  transition: 0.5s;
+}
+#home{
+
+    background-image: url("city-wallpaper-11.jpg");
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#beranda{
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+
+
+}
+
+
+#cerita{
+
+  background-color: none;
+  height: 100vh;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#galeri{
+
+  background-color: yellow;
+  height: 100vh;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#aboutus{
+
+  background-color: pink;
+  height: 100vh;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
+a{
+    color: black ;
+    text-decoration : none;
+
+
+}
+.header.past-main {
+    background-color:black;
+    background:
+    color:white;
+    box-shadow: 1px 1px 5 px 0.5px  #282830 ;
+    transition: 0.5s ;
+
+}
+
+.item.past-main {
+    color:white;
+    transition: 0.5s ;
+
+}
+.item.past-main:hover {
+  border-top:4px solid white;
+  transition: 0.5s;
+}
+
+.title{
+  background-color: grey;
+  width : 80%;
+  height: 9%;
+  margin-top: 17%;
+  margin-left: 18%;
+  transition: 1s;
+}
+.describ{
+  background-color: green;
+  width : 80%;
+  height: 60%;
+  margin-top: 3%;
+  margin-left: 18%;
+}
+.title-describ{
+  width: 50%;
+  height: 100%;
+}
+.imaging{
+  width: 50%;
+  height: 100%;
+}
+.image{
+  background-color: blue;
+  width : 80%;
+  height: 72%;
+  margin-top: 17%;
+  margin-left: 2%;
+  transition: left 0s .75s;
+}
+.cerita1{
+
+  width: 60% ;
+  height: auto;
+  background-color: blue;
+  float: left;
+  margin: 0px auto;
+  text-align: center;
+
+}
+.cerita2{
+
+  width: 50% ;
+  float: left;
+
+}
+#tuts-slider{
+  position: relative;
+  border:1px solid #ddd;
+  height: auto;
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+}
+#tuts-slider .bjqs{
+  position: absolute;
+  height: auto;
+  width: 50% ;
+  overflow: hidden;
+}
+#tuts-slider ul{
+  list-style-type: none;
+}
+#tuts-slider .bjqs li{
+  border-top:none;
+  padding:0;
+  float: left;
+}
+#tuts-slider .bjqs-controls {
+  position:absolute;
+  top:10px;
+  left:-5px;
+  border:1px solid #ddd;
+}
+#tuts-slider .bjqs-controls:before{
+  content:"";
+  width:4px;
+  height:4px;
+  position: absolute;
+  bottom:-5px;
+  left:0;
+}
+#tuts-slider .bjqs-controls li{
+  border-top:none;
+  padding:0;
+}
+#tuts-slider .bjqs-controls li:first-child{
+  border-bottom:1px solid #ddd;
+}
+#tuts-slider .bjqs-controls li a{
+  padding:5px;
+  text-decoration:none;
+  background:white;
+  display: block;
+  color:#000;
+  font:normal 12px arial;
+}
+#tuts-slider .bjqs-controls li a:hover{
+  text-decoration: none;
+  background:#efefef;
+}
